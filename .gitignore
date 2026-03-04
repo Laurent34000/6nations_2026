@@ -1,0 +1,16 @@
+# Ignorer l'environnement virtuel
+venv/
+
+# Ignorer tous les dossiers de checkpoints Jupyter dans tout le projet
+**/.ipynb_checkpoints/
+
+# Ignorer les fichiers Python compilés
+__pycache__/
+*.py[cod]
+
+# Ignorer fichiers de logs
+*.log
+
+# Ignorer les fichiers temporaires et de test dans les notebooks
+notebooks/scraping/temp/
+notebooks/visualization/test/
